@@ -144,7 +144,7 @@
 						delta: 1
 					})
 				} else {
-					this.$emit('clickLeft')
+					// this.$emit('clickLeft')
 					this.$emit('click-left')
 				}
 			},
@@ -152,7 +152,7 @@
 			 * 右侧按钮点击事件
 			 */
 			onClickRight() {
-				this.$emit('clickRight')
+				// this.$emit('clickRight')
 				this.$emit('click-right')
 			}
 		}
