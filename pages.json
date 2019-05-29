@@ -19,7 +19,10 @@
 			"path": "pages/site-info/site-info",
 			"style": {}
 		}, {
-			"path": "pages/site-info/test",
+			"path": "pages/site-info/chart-info",
+			"style": {}
+		}, {
+			"path": "pages/site-info/map",
 			"style": {}
 		}, {
 			"path": "pages/account/account",

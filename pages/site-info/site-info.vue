@@ -27,6 +27,12 @@
 					{
 						label: '仪表盘',
 						urlScr: '../../static/img/site-info/ewatch.png',
+						url: './chart-info'
+					},
+					{
+						label: '地图位置',
+						urlScr: '../../static/img/site-info/map.png',
+						url: './map'
 					}
 				],
 				title: '站点信息'

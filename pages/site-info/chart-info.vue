@@ -1,5 +1,6 @@
 <template>
 	<view class="qiun-columns">
+		<uni-nav-bar left-icon="back" :title="'title'"></uni-nav-bar>
 		<view class="qiun-bg-white qiun-title-bar qiun-common-mt">
 			<view class="qiun-title-dot-light">柱状图</view>
 		</view>
@@ -14,22 +15,21 @@
 	var _self;
 	var canvaColumn = null;
 	export default {
-		data() {
+		data() { 
 			return {
 				cWidth: '',
 				cHeight: '',
+				
 				pixelRatio: 1,
 				serverData: ''
 			}
 		},
 		onLoad() {
 			_self = this;
-			//#ifdef MP-ALIPAY
+			//#ifdef MP-ALIPAY 
 			uni.getSystemInfo({
 				success: function(res) {
 					if (res.pixelRatio > 1) {
-						//正常这里给2就行，如果pixelRatio=3性能会降低一点
-						//_self.pixelRatio =res.pixelRatio;
 						_self.pixelRatio = 2;
 					}
 				}
@@ -68,7 +68,7 @@
 					$this: _self,
 					canvasId: canvasId,
 					type: 'line',
-					legend: true,
+					legend: true, 
 					fontSize: 11,
 					background: '#FFFFFF',
 					pixelRatio: _self.pixelRatio,
