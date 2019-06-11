@@ -22,7 +22,7 @@
 				gridItems: [{
 						label: '用电信息',
 						urlScr: '../../static/img/site-info/epower.png',
-						url: './test'
+						url: './card-info'
 					},
 					{
 						label: '仪表盘',
@@ -33,6 +33,16 @@
 						label: '地图位置',
 						urlScr: '../../static/img/site-info/map.png',
 						url: './map'
+					},
+					{
+						label: '图片信息',
+						urlScr: '../../static/img/site-info/img.png',
+						url: './img-info'
+					},
+					{
+						label: '语音合成',
+						urlScr: '../../static/img/site-info/voice.png',
+						url: './voice'
 					}
 				],
 				title: '站点信息'

@@ -3,8 +3,8 @@
 		<uni-nav-bar title="设置"></uni-nav-bar>
 		<view class="">
 			<uni-list>
-				<uni-list-item title="修改密码" note="" @click="gotoResetpwd()"></uni-list-item>
-				<uni-list-item title="退出登录" note="" @click="logout()"></uni-list-item>
+				<uni-list-item title="修改密码"  @click="gotoResetpwd()"></uni-list-item>
+				<uni-list-item title="退出登录"  @click="logout()"></uni-list-item>
 			</uni-list>
 		</view>
 		<tabbar></tabbar>

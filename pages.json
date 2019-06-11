@@ -18,8 +18,17 @@
 		}, {
 			"path": "pages/site-info/site-info",
 			"style": {}
-		}, {
+		},{
+			"path": "pages/site-info/card-info",
+			"style": {}
+		},  {
 			"path": "pages/site-info/chart-info",
+			"style": {}
+		},  {
+			"path": "pages/site-info/img-info",
+			"style": {}
+		},  {
+			"path": "pages/site-info/voice",
 			"style": {}
 		}, {
 			"path": "pages/site-info/map",

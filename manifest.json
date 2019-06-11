@@ -16,7 +16,8 @@
         },
         "modules" : {
             "OAuth" : {},
-            "Maps" : {}
+            "Maps" : {},
+            "Speech" : {}
         },
         /* 模块配置 */
         "distribute" : {
@@ -60,7 +61,14 @@
                         "appkey_android" : "99086b70e35aea8b4242dec1dc1cd85a"
                     }
                 },
-                "oauth" : {}
+                "oauth" : {},
+                "speech" : {
+                    "baidu" : {
+                        "appid" : "16473708",
+                        "apikey" : "3eL5CPOFfp43XSKtoHpdo6K2",
+                        "secretkey" : "GKfNy8mKpjkDPkcleVmPxk4e5nYG5cWQ"
+                    }
+                }
             },
             "icons" : {
                 "ios" : {

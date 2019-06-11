@@ -38,7 +38,17 @@
 				mapScale: 16
 			}
 		},
+		mounted() {
+			this.getLocation()
+		},
 		methods: {
+			getLocation() {
+				uni.getLocation({
+					success(res) {
+						console.log(res)
+					}
+				})
+			},
 			test(e) {
 				console.log(e)
 				let map = uni.createMapContext('map', this)
